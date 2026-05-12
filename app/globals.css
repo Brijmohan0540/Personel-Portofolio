@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-deep text-ivory antialiased; }
+.glass { @apply bg-white/10 backdrop-blur-xl border border-white/20 shadow-2xl; }
+.section { @apply mx-auto max-w-7xl px-4 md:px-8 py-16 md:py-24; }
